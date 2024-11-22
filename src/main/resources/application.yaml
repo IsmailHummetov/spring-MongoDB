@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring-MongoDB
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: shop
+      authentication-database: admin
+
+logging:
+  level:
+    org.springframework.data.mongodb: DEBUG
